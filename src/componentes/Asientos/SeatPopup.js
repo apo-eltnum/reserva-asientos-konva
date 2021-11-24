@@ -39,8 +39,8 @@ const Popup = ({ position, seatId, onClose }) => {
         backgroundColor: "white"
       }}
     >
-      <div>Seat {seatId}</div>
-      <div>Click on the seat to select</div>
+      <div>Asiento {seatId}</div>
+      <div>Click en el asiento para seleccionar</div>
     </div>
   );
 };

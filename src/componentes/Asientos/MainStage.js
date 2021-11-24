@@ -42,11 +42,11 @@ const MainStage = props => {
   const [scale, setScale] = React.useState(1);
   const [scaleToFit, setScaleToFit] = React.useState(1);
   const [size, setSize] = React.useState({
-    width: 1000,
-    height: 1000,
-    virtualWidth: 1000
+    width: window.innerWidth,
+    height: window.innerHeight,
+    virtualWidth: window.innerWidth
   });
-  const [virtualWidth, setVirtualWidth] = React.useState(1000);
+  const [virtualWidth, setVirtualWidth] = React.useState(window.innerWidth);
 
   const [selectedSeatsIds, setSelectedSeatsIds] = React.useState([]);
 
